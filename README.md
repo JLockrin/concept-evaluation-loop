@@ -13,7 +13,7 @@ Built for **Cursor** and **Codex-style agent harnesses**. The orchestrator spawn
 
 ```bash
 # From your target project root:
-git clone https://github.com/YOUR_ORG/concept-evaluation-loop.git /tmp/concept-evaluation-loop
+git clone https://github.com/JLockrin/concept-evaluation-loop.git /tmp/concept-evaluation-loop
 bash /tmp/concept-evaluation-loop/scripts/install.sh
 ```
 
