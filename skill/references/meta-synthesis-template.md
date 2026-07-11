@@ -98,7 +98,7 @@ Use after all per-option loops complete. Write to `meta-synthesis.md` and struct
 
 - [Approaches brainstormed](approaches.md)
 
-- [Option A synthesis](option-a/synthesis.md) — [pro](option-a/pro.md) · [against](option-a/against.md) · [lateral](option-a/lateral.md)
+- [Option A synthesis](option-a/synthesis.md) — [pro](option-a/pro.md) · [cons](option-a/cons.md) · [lateral](option-a/lateral.md)
 
 - [Option B synthesis](option-b/synthesis.md) — ...
 

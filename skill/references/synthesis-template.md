@@ -96,7 +96,7 @@ Use this for `synthesis.md` and as the structure for the concise chat response.
 
 - [Arguments for](pro.md)
 
-- [Arguments against](against.md)
+- [Arguments against](cons.md)
 
 - [Lateral alternatives](lateral.md)
 

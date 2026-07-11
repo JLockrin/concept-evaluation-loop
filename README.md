@@ -104,7 +104,7 @@ Installs to `~/.cursor/skills/concept-evaluation-loop/` and `~/.agents/skills/co
 ```
 evaluations/<eval-id>/
   brief.md
-  pro.md, against.md, lateral.md, synthesis.md
+  pro.md, cons.md, lateral.md, synthesis.md
 ```
 
 **Problem mode:**
@@ -113,7 +113,7 @@ evaluations/<eval-id>/
 evaluations/<eval-id>/
   brief.md
   approaches.md
-  option-a/  → brief.md, pro.md, against.md, lateral.md, synthesis.md
+  option-a/  → brief.md, pro.md, cons.md, lateral.md, synthesis.md
   option-b/
   option-c/
   meta-synthesis.md
@@ -147,7 +147,7 @@ If your project uses a `brain/` knowledge base, copy `brain-template/domains/con
 
 PRs welcome. Keep analyst prompts isolated — pro/against/lateral must not cross-read.
 
-**Note:** The con analyst writes to `against.md` (not `con.md`) because `CON` is a reserved device name on Windows and breaks git checkouts.
+**Note:** The con analyst writes to `cons.md` (never `con.md`) because `CON` is a reserved device name on Windows/OneDrive and breaks sync and git checkouts.
 
 ## License
 

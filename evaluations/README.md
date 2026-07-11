@@ -20,7 +20,7 @@ evaluations/<eval-id>/
 
   brief.md
 
-  pro.md, against.md, lateral.md, synthesis.md
+  pro.md, cons.md, lateral.md, synthesis.md
 
 ```
 
@@ -38,7 +38,7 @@ evaluations/<eval-id>/
 
   approaches.md
 
-  option-a/  → brief.md, pro.md, against.md, lateral.md, synthesis.md
+  option-a/  → brief.md, pro.md, cons.md, lateral.md, synthesis.md
 
   option-b/
 

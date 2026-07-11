@@ -77,7 +77,7 @@ Launch all three in **one message**. Read-only (`readonly: true`). Isolation: br
 | Agent | Prompt | Output |
 |---|---|---|
 | Pro | [references/pro-agent.md](references/pro-agent.md) | `pro.md` |
-| Con | [references/con-agent.md](references/con-agent.md) | `against.md` |
+| Con | [references/con-agent.md](references/con-agent.md) | `cons.md` |
 | Lateral | [references/lateral-agent.md](references/lateral-agent.md) | `lateral.md` |
 
 ### 3. Synthesize
@@ -96,7 +96,7 @@ State detected mode and chosen approach count in chat before proceeding.
 [references/brainstorm-agent.md](references/brainstorm-agent.md) → `approaches.md`
 
 ### 3. Full concept loop per approach
-Each in `option-a/`, `option-b/`, etc. with own brief + pro/against/lateral/synthesis.
+Each in `option-a/`, `option-b/`, etc. with own brief + pro/cons/lateral/synthesis.
 Launch analysts for **all options** in as few parallel batches as possible (e.g. 3 options → 9 Task calls in one message).
 
 ### 4. Meta-synthesize
@@ -118,6 +118,7 @@ Skip when no `brain/` exists.
 ## Hard gates
 
 - Pro/con parallel, isolated. Lateral isolated from both.
+- Con analyst output file is always `cons.md` (never `con.md` — Windows/OneDrive blocks the reserved device name `CON`).
 - Problem mode: orchestrator chooses N (2–5) unless `--options` set; max 5.
 - Each approach gets full loop before meta-synthesis.
 - Synthesis must cite **specific points** from analysts, not generic summaries.
